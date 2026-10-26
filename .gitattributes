@@ -1,0 +1,4 @@
+# Einheitliche Zeilenenden (LF) auf allen Rechnern
+* text=auto eol=lf
+*.tga binary
+*.blp binary

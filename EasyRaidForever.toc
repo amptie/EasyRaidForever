@@ -1,0 +1,48 @@
+## Interface: 16001
+## Title: |cffe8c46bEasyRaid|r Forever
+## Notes: Loot for skill issue: imports soft reserves (SR/SR+) from the guild website, runs the rolls (SR / MS / DS / OS) and exports the loot back to the website.
+## Notes-deDE: Loot für skill issue: importiert Reservierungen (SR/SR+) von der Gildenseite, führt die Würfe durch (SR / MS / DS / OS) und exportiert den Loot zurück auf die Seite.
+## Author: Celebrindal
+## Version: 1.0.0
+## SavedVariables: EasyRaidForeverDB
+## IconTexture: Interface\Icons\INV_Misc_Book_09
+## Category-enUS: Raid
+## Category-deDE: Schlachtzug
+## AddonCompartmentFunc: EasyRaidForever_OnCompartmentClick
+## X-Localizations: enUS, deDE
+
+# --- Embedded libraries -------------------------------------------------------
+Libs\LibStub\LibStub.lua
+Libs\LibDeflate\LibDeflate.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+Libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
+
+# --- Localisation (enUS defines the table, deDE overrides) --------------------
+Locales\enUS.lua
+Locales\deDE.lua
+
+# --- Core: helpers, database, events, serialization, transport ---------------
+Core\Util.lua
+Core\Core.lua
+Core\Serializer.lua
+Core\Comm.lua
+
+# --- Raid: imported raid (website), loot, rolls, export -----------------------
+Raid\Raid.lua
+Raid\Transfer.lua
+Raid\Loot.lua
+Raid\Rolls.lua
+
+# --- UI -----------------------------------------------------------------------
+UI\Widgets.lua
+UI\UI.lua
+UI\MainWindow.lua
+UI\LootMaster\LootMasterWindow.lua
+UI\LootMaster\RollWindow.lua
+UI\LootMaster\ResultsWindow.lua
+UI\LootMaster\TradeHelper.lua
+UI\Minimap.lua
+
+# --- Boot (runs last) ---------------------------------------------------------
+Init.lua
