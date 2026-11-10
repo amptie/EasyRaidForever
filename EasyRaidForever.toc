@@ -1,7 +1,7 @@
 ## Interface: 16001
 ## Title: |cffe8c46bEasyRaid|r Forever
-## Notes: Loot for skill issue: imports soft reserves (SR/SR+) from the guild website, runs the rolls (SR / MS / DS / OS) and exports the loot back to the website.
-## Notes-deDE: Loot für skill issue: importiert Reservierungen (SR/SR+) von der Gildenseite, führt die Würfe durch (SR / MS / DS / OS) und exportiert den Loot zurück auf die Seite.
+## Notes: Loot for skill issues: imports soft reserves (SR/SR+) from the guild website, runs the rolls (SR / MS / DS / OS) and exports the loot back to the website.
+## Notes-deDE: Loot für skill issues: importiert Reservierungen (SR/SR+) von der Gildenseite, führt die Würfe durch (SR / MS / DS / OS) und exportiert den Loot zurück auf die Seite.
 ## Author: Celebrindal
 ## Version: 1.0.0
 ## SavedVariables: EasyRaidForeverDB

@@ -1,6 +1,6 @@
 # EasyRaidForever
 
-Loot-Addon der Gilde **[skill issue]** für WoW Forever. Arbeitet mit der Gildenseite https://skill-issue-de.pages.dev zusammen
+Loot-Addon der Gilde **[skill issues]** für WoW Forever. Arbeitet mit der Gildenseite https://skill-issue-de.pages.dev zusammen
 (Repo: https://github.com/amptie/skill-issue-page) – die Seite ist die Datenquelle, das Addon macht nur das, was ingame passieren muss.
 
 ## Funktionen
